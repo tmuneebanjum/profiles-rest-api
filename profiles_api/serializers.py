@@ -1,6 +1,6 @@
-from rest_framework import  serializeers
+from rest_framework import  serializers
 
-class HelloSerializer(serializeers.Serializer):
+class HelloSerializer(serializers.Serializer):
     
-    name = serializeers.CharField(max_length=10)
+    name = serializers.CharField(max_length=10)
 
